@@ -1,20 +1,24 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Vue js Application Running on Docker"/>
+  <employee-form msg="I Love Devops"></employee-form>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+
+import EmployeeForm from './components/EmployeeForm.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EmployeeForm
   }
 }
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +27,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
